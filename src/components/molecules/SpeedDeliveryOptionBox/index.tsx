@@ -7,3 +7,5 @@ const SpeedDeliveryBox = () => {
 
     </SelectComponent>
 }
+
+export default SpeedDeliveryBox;

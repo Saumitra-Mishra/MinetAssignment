@@ -1,10 +1,13 @@
-import { Grid, Typography } from "@mui/material"
+import { Grid, Typography, Box } from "@mui/material"
 import AvatarComponent from "../../atoms/Avatar"
 import ButtonComponent from "../../atoms/Button"
 
 
 
 const Header = () => {
+    const showUserProfile = () => {
+
+    }
     return <Grid>
         <Grid item>
             <Typography></Typography>
@@ -14,7 +17,7 @@ const Header = () => {
             <ButtonComponent></ButtonComponent>
         </Grid>
         <Grid item>
-            <AvatarComponent></AvatarComponent>
+            <Box onClick={showUserProfile}><AvatarComponent></AvatarComponent></Box>
         </Grid>
     </Grid>
 }
